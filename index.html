@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="icon" href="../Code editor/code.png" type="image/png">
+    <title>CodeEditor</title>
+</head>
+<body>
+    <div class="editor-container">
+        <div class="code-container">
+            <font>HTML</font><br>
+            <textarea id="html-input" ></textarea><br>
+            <font>CSS</font><br>
+            <textarea id="css-input" ></textarea><br>
+            <font>JS</font><br>
+
+            <textarea id="js-input"></textarea><br>
+            <div class="btts">
+            <button class="runbtt" onclick="runCode()" id="runButton">
+                <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/becebamh.json"
+                    trigger="hover"
+                    colors="primary:#ffffff"
+                    style="width:100px;height:100px">
+                </lord-icon>
+            
+            </button>
+            <button class="btn-d"  onclick="downloadProject()"><i class="fa fa-download" style="font-size:50px ; color: #f0f0f0;"></i> </button>
+        </div>
+    </div>
+        <!--<div ="button-container">
+            <button></button>
+        </div>-->
+        <div class="result-container">
+            <iframe frameborder="1" id="result-frame"></iframe>
+        </div>
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

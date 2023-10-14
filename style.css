@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #393b44;
+}
+.editor-container {
+    padding: 10px 20px;
+    /*display: flex;
+    justify-content: space-between;*/
+    align-items: center;
+}
+.code-container font {
+   
+   color: white;
+}
+.code-container{
+    float: left;
+    
+}
+#html-input , #css-input , #js-input {
+    height: 165px;
+    background-color: #1e1f22;
+    padding: 5px 10px;
+    border-radius: 8px;
+    outline: none;
+    margin-left: 20px;
+    width: 450px;
+    margin-top: 5px;
+    
+
+    
+    
+}
+#html-input {
+    color: orange;
+}
+#css-input {
+    color: blue;
+}
+
+#js-input {
+    color: yellow;
+}
+
+iframe {
+    background-color: white;
+    width: 800px;
+    height:590px;
+    float: right;
+   margin: 10px 5px;
+
+}
+.btts {
+    align-items: center;
+    
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+.runbtt {
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+    
+}
+.btn-d {
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+    margin-left: 50px;
+    transition: 0.9s;
+}
+.btn-d:hover {
+    transform: scale(1.1);
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    iframe {
+        width:100%;
+        margin-left: 20px;
+    }
+    .code-container {
+        width: 99%;
+    }
+    #html-input , #css-input , #js-input {
+        width: 100%;
+        margin-left: 0;
+    }
+    .code-container {
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .code-container {
+        width: 100%;
+    } 
+    iframe {
+        width: 100%;
+        margin: 5px 2.5px;
+        height:300px;
+    }
+    .code-container {
+        align-items: center;
+    }
+    #html-input , #css-input , #js-input {
+        width: 100%;
+        margin-left: 5px;
+    
+    }
+}
