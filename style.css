@@ -5,6 +5,12 @@
 body {
     background-color: #393b44;
 }
+.ads-space {
+    width: 728px;
+    height: 90px;
+    margin: 20px 300px;
+    
+}
 .editor-container {
     padding: 10px 20px;
     /*display: flex;
@@ -92,6 +98,10 @@ iframe {
     .code-container {
         align-items: center;
     }
+    .ads-space {
+        margin:  0;
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 600px) {
     .code-container {
@@ -109,5 +119,9 @@ iframe {
         width: 100%;
         margin-left: 5px;
     
+    }
+    .ads-space {
+        margin:  0;
+        width: 100%;
     }
 }
