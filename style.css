@@ -5,7 +5,12 @@
 body {
     background-color: #393b44;
 }
+.ads-space {
+    
+    height: 90px;
+width : 728px;
 
+}
 .editor-container {
     padding: 10px 20px;
     /*display: flex;
