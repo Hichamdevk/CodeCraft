@@ -9,7 +9,7 @@ body {
     height: 90px;
     width: 728px;
     margin: 0 auto;
-    
+    background-color: white;
 }
 .editor-container {
     padding: 10px 20px;
